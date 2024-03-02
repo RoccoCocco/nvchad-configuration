@@ -42,6 +42,9 @@ M.mason = {
     -- c/cpp stuff
     "clangd",
     "clang-format",
+
+    -- shell stuff
+    "shfmt",
   },
 }
 
