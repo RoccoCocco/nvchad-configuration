@@ -6,6 +6,7 @@ M.treesitter = {
     "lua",
     "html",
     "css",
+    "scss",
     "javascript",
     "typescript",
     "tsx",
@@ -36,12 +37,11 @@ M.mason = {
     "prettier",
     "eslint_d",
     "eslint-lsp",
+    "vue-language-server@1.8.27",
 
     -- c/cpp stuff
     "clangd",
     "clang-format",
-
-    "vue-language-server",
   },
 }
 
@@ -54,7 +54,6 @@ M.nvimtree = {
   git = {
     enable = true,
   },
-
   renderer = {
     highlight_git = true,
     icons = {
