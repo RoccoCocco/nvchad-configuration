@@ -11,11 +11,12 @@ M.general = {
         require("conform").format()
       end,
       "formatting",
-    }
+    },
 
+    ["<leader>lg"] = { "<cmd> LazyGit <CR>", "Open LazyGit" },
   },
   v = {
-    [">"] = { ">gv", "indent"},
+    [">"] = { ">gv", "indent" },
   },
 }
 

@@ -4,7 +4,20 @@ local overrides = require "custom.configs.overrides"
 local plugins = {
   { "rebelot/kanagawa.nvim" },
   -- Override plugin definition options
-
+  {
+    "kdheepak/lazygit.nvim",
+    cmd = {
+      "LazyGit",
+      "LazyGitConfig",
+      "LazyGitCurrentFile",
+      "LazyGitFilter",
+      "LazyGitFilterCurrentFile",
+    },
+    -- optional for floating window border decoration
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+  },
   {
     "hrsh7th/nvim-cmp",
     dependencies = {
