@@ -37,7 +37,7 @@ M.mason = {
     "prettier",
     "eslint_d",
     "eslint-lsp",
-    "vue-language-server@1.8.27",
+    "vue-language-server",
 
     -- c/cpp stuff
     "clangd",
