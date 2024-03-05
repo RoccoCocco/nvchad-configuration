@@ -28,7 +28,7 @@ local plugins = {
   {
     "hrsh7th/nvim-cmp",
     dependencies = {
-      "roccococco/cmp-emoji",
+      "hrsh7th/cmp-emoji",
     },
     opts = function(_, opts)
       table.insert(opts.sources, { name = "emoji" })
