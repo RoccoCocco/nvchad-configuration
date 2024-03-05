@@ -14,6 +14,8 @@ M.treesitter = {
     "markdown",
     "markdown_inline",
     "vue",
+    "comment",
+    "jsdoc",
   },
   indent = {
     enable = true,
@@ -64,6 +66,16 @@ M.nvimtree = {
         git = true,
       },
     },
+  },
+}
+
+M.todocomments = {
+  highlight = {
+    pattern = [[.*<(KEYWORDS)\s*]],
+    multiline = false,
+    keyword = "bg",
+    after = "",
+    before = "",
   },
 }
 

@@ -3,7 +3,14 @@ local overrides = require "custom.configs.overrides"
 ---@type NvPluginSpec[]
 local plugins = {
   { "rebelot/kanagawa.nvim" },
-  -- Override plugin definition options
+
+  {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    opts = overrides.todocomments,
+    lazy = false,
+  },
+
   {
     "kdheepak/lazygit.nvim",
     cmd = {
